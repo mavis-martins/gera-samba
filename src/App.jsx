@@ -1,11 +1,20 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      
+      <div className="container">
+        <div className="row">
+          <div className="main">
+            <h1>
+              Gera Samba
+            </h1>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
